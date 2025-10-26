@@ -30,6 +30,7 @@ namespace QuickSilverVpnApi
             RandomNumberGenerator.Fill(data);
             return Convert.ToBase64String(data).TrimEnd('-').PadRight(44, '=');
         }
+        
         public async Task<string> Register()
         {
             var data = JsonContent.Create(new
