@@ -3,7 +3,6 @@ Mobile-API for [QuickSilver VPN](https://play.google.com/store/apps/details?id=c
 
 ## Example
 ```cs
-using System;
 using QuickSilverVpnApi;
 
 namespace Application
